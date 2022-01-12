@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("dom file");var e=document.querySelector("body"),o=function(o){var n=document.createElement("h1");n.textContent=o,e.appendChild(n)};o("Hello World from the dom file");var n=[{name:"Mario",premium:!0},{name:"Luigi",premium:!1},{name:"Joshi",premium:!0},{name:"Toad",premium:!0},{name:"Peach",premium:!1}];o("Test"),e.style.background="peachpuff",o("Andres Ninja");var r=function(e){return e.filter((function(e){return e.premium}))}(n);console.log(n,r),console.log("Test 2")})();
+
