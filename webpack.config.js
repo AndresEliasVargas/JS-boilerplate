@@ -6,12 +6,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist/assets'),
     filename: 'bundle.js'
   },
-  //chapter 162
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     publicPath: '/assets/'
   },
-  // chapter 164
   module: {
     rules: [{
       test: /\.js$/,
@@ -25,6 +23,3 @@ module.exports = {
     }]
   }
 };
-
-// this give me the dir path of where in the computer I'm or known as absolute path
-// __dirname
